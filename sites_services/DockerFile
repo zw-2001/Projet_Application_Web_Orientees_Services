@@ -1,0 +1,14 @@
+# Utiliser une image Java officielle comme base
+FROM openjdk:19-jdk-alpine
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier le fichier JAR généré dans l'image
+COPY target/sites_services-0.0.1-SNAPSHOT.jar /app/sites_services.jar
+
+# Exposer le port sur lequel l'application va tourner
+EXPOSE 8082
+
+# Définir la commande pour exécuter l'application
+ENTRYPOINT ["java", "-jar", "/app/sites_services.jar"]
