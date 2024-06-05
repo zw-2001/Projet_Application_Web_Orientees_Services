@@ -1,6 +1,6 @@
-package com.miage.neo4j.repository;
+package com.miage.distances_services.repository;
 
-import com.miage.neo4j.entity.Site;
+import com.miage.distances_services.entity.Site;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import java.util.Optional;
 

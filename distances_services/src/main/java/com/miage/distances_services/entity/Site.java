@@ -1,6 +1,8 @@
-package com.miage.neo4j.entity;
+package com.miage.distances_services.entity;
 
+import com.miage.distances_services.entity.Event;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.geo.Distance;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Relationship;
 import java.util.Set;

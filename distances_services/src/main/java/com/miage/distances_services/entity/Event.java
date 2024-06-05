@@ -1,5 +1,6 @@
-package com.miage.neo4j.entity;
+package com.miage.distances_services.entity;
 
+import com.miage.sites_services.entity.Site;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.neo4j.core.schema.Node;
 import org.springframework.data.neo4j.core.schema.Relationship;
@@ -37,6 +38,4 @@ public class Event {
     public void setDate(String date) {
         this.date = date;
     }
-
-
 }

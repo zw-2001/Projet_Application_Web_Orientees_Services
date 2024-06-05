@@ -1,7 +1,7 @@
-package com.miage.neo4j.service;
+package com.miage.distances_services.service;
 
-import com.miage.neo4j.entity.Event;
-import com.miage.neo4j.repository.EventRepository;
+import com.miage.distances_services.entity.Event;
+import com.miage.distances_services.repository.EventRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;

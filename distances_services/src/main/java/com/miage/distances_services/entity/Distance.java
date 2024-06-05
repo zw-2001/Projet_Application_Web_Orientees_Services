@@ -1,4 +1,4 @@
-package com.miage.neo4j.entity;
+package com.miage.distances_services.entity;
 
 import org.springframework.data.neo4j.core.schema.RelationshipProperties;
 import org.springframework.data.neo4j.core.schema.TargetNode;
@@ -10,7 +10,5 @@ public class Distance {
     private int distance;
     private int carTime;
     private int publicTransportTime;
-
-    // Getters and Setters
 }
 
