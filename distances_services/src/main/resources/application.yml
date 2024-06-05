@@ -1,0 +1,9 @@
+spring:
+  neo4j:
+    url: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: microservices
+
+
+
